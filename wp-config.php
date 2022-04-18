@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'masonandtheginline' );
+define( 'DB_NAME', 'protechbw' );
 
 /** Database username */
 define( 'DB_USER', 'ben.rey' );
@@ -38,6 +38,8 @@ define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );
 
 
+define('WP_SITEURL', 'http://localhost');
+define('WP_HOME', 'http://localhost');
 /**#@+
  * Authentication unique keys and salts.
  *
