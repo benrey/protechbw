@@ -32,14 +32,11 @@ define( 'DB_PASSWORD', '9Global#' );
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-
-define('WP_SITEURL', 'http://localhost');
-define('WP_HOME', 'http://localhost');
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -51,14 +48,14 @@ define('WP_HOME', 'http://localhost');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'K57?T~M!+L^!|fh|^Zqao@WQr)sL@k~0ll8g~nD({MMI/$Qr8x>TK2M4h^OB4@p)' );
+define( 'SECURE_AUTH_KEY',  'l0y{](bGr_KY-G/XEKux:e-?n`HZA*Smzu_`HW8r-+`iI?!(mUPXrgC)^!2e^gT6' );
+define( 'LOGGED_IN_KEY',    '@z#R(oGoX %( v([lxe-51X9b/*uvdkcaDZc`VLE3 ?rsY|yFP9w|Q(Dk7|C[RN5' );
+define( 'NONCE_KEY',        'Y[@,>)!eL|]EW-=qyn2^1kx)cH%fsNRIoR]7O~t>p)tS?:FD.}laC8t_PY/DDOfC' );
+define( 'AUTH_SALT',        ']%UFMWAcvjM ]JP+FTT^?eY%d!p5[q);~OC}H=8fq%*[T$1_S<e`H.x`e^& );If' );
+define( 'SECURE_AUTH_SALT', '36}s*xW-q^tKN<sguav[Qnk[$}76*>*XzO5|gfe((dtS=t+hiS3xdwseoKcD@=Mk' );
+define( 'LOGGED_IN_SALT',   'gaEk4N2-/T$`H;&ZMnxusk6phLLh7vXi!U>rQ_k<A>?GQUo=FEy@}|:Tnd ^md:k' );
+define( 'NONCE_SALT',       'RkB|V>M#d5$xPVYfob`krqA{B!,ue[7XAI4U(w{Lbx/$o5x.A1IzE$$92?-Z~hcv' );
 
 /**#@-*/
 
@@ -82,8 +79,8 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG', false );
+
 /* Add any custom values between this line and the "stop editing" line. */
 
 
