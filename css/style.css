@@ -2281,13 +2281,13 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     top: 0;
     left: 0;
     right: 0;
-    height: 92px;
+    height: 110px;
     padding-top: 38px;
     z-index: 1030;
 }
 #site-header .logoname {
     display:inline-block;
-    margin-left:.5rem;
+    margin-left:1.5rem;
     font-size: 1.5rem;
 }
 #site-header .scrolled {
@@ -2324,8 +2324,8 @@ body.scrolled #site-header nav svg circle {
 }
 
 #site-header img {
+    filter: invert(14%) sepia(23%) saturate(7463%) hue-rotate(352deg) brightness(97%) contrast(101%);
     width: 50px;
-    height: auto;
 }
 #site-header .g-container {
     color: rgb(255, 255, 255);
