@@ -2324,7 +2324,7 @@ body.scrolled #site-header nav svg circle {
 }
 
 #site-header img {
-    width: 50px;
+    width: 220px;
     height: auto;
 }
 #site-header .g-container {
