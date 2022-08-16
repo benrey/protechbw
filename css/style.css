@@ -2282,7 +2282,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     left: 0;
     right: 0;
     height: 110px;
-    padding-top: 38px;
+    padding-top: 28px;
     z-index: 1030;
 }
 #site-header .logoname {
@@ -2325,7 +2325,7 @@ body.scrolled #site-header nav svg circle {
 
 #site-header img {
     filter: invert(14%) sepia(23%) saturate(7463%) hue-rotate(352deg) brightness(97%) contrast(101%);
-    width: 50px;
+    width: 30px;
 }
 #site-header .g-container {
     color: rgb(255, 255, 255);
@@ -2861,8 +2861,9 @@ body.single-work #site-header.light nav li.menu-item-16 a:after {
 }
 
 #site-footer .copyright img {
-    height: 29px;
-    width: 29px;
+    height: 24px;
+    width: 24px;
+    filter: invert(14%) sepia(23%) saturate(7463%) hue-rotate(352deg) brightness(60%) contrast(101%);
 }
 
 @media (min-width:768px) {
