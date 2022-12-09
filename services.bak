@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Space+Grotesk:wght@30&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- main.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- title -->
+    <title>Coating Specialists</title>
+    <!-- global site tag (gtag.js)
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG37SV42XS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZG37SV42XS');
+    </script> - Google Analytics -->
+</head>
+
+<body id="services">
+    <bg></bg>
+    <div id="mainSlideShow">
+        <!-- preloader -->
+        <!-- end preloader -->
+        <!-- Whole page wrapper -->
+        <!-- header section -->
+        <header class="header" id="header">
+            <con class="container-fluid">
+                <!-- nav element -->
+                <nav class="navbar fixed-top navbar-expand-md" id="navb">
+                    <a href="index.html" class="navbar-brand transparent">
+                        <img src="img/CSI_R.png" alt="logo" class="#" />
+                    </a>
+                    <a href="index.html" class="navbar-brand-text">
+                        Coating Specialists
+                    </a>
+                    <button class="navbar-toggler collapsed icon-bars" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#myNav">
+                        <span class="toggler-icon top-bar"></span>
+                        <span class="toggler-icon middle-bar"></span>
+                        <span class="toggler-icon bottom-bar"></span>
+                    </button>
+                    <!-- -->
+                    <div class="collapse navbar-collapse" id="myNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="work.html" class="nav-link">
+                                    WORK
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="services.html" class="nav-link">
+                                    SERVICES
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    CONTACT
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="FAQ.html" class="nav-link">
+                                    FAQ
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- social icons -->
+                        <div class="nav-icons">
+                            <a href="https://www.facebook.com/coatingspecialists/" class="nav-icon">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/coating_specialists/" class="nav-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="nav-icon">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <!-- end nav element -->
+            </con>
+        </header>
+        <!-- end of header section -->
+        <div id="push" class="">
+            <!-- beginging of jumobtron -->
+            <div class="jumbotron">
+                <div class="container">
+                    <h2 class="text-center pt-5 pb-3">Services Page</h2>
+                    <div class="row justify-content-center text-center" id="features">
+                        <div class="col-10 col-md-4">
+                            <div class="feature">
+                                <a href="index.html" class="href">
+                                    <img src="img/gearLogo.png">
+                                </a>
+                                <h3>Home</h3>
+                                <p>Go back to homepage</p>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-4">
+                            <div class="feature">
+                                <a href="https://www.instagram.com/coatingspecialists/" class="href">
+                                    <img src="img/CSInstagram.jpg">
+                                </a>
+                                <h3>Instagram</h3>
+                                <p>Follow and give us a like on Instagram!</p>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-4">
+                            <div class="feature">
+                                <a href="https://www.facebook.com/coatingspecialists/" class="featurefbhref">
+                                    <img src="img/FB.png" alt="logo" class="#" />
+                                </a>
+                                <h3>Facebook</h3>
+                                <p>Follow and give us a link on Facebook!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- End Row -->
+                </div>
+                <!--- End Container -->
+            </div> <!-- end of jumbotron -->
+
+            <!-- start of footer -->
+
+            <footer>
+                <div class="container-fluid">
+                    <div class="row text-center py-5">
+                        <div class="col-md-4">
+                            <a href="about.html" class="footerCerakotehref">
+                                <img src="img/CerakoteLogo.png" alt="cerakoteLogo" class="#">
+                            </a>
+                            <p>Understanding Cerakote</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="text-center">CONTACT INFO</h3><strong>Contact Info</strong>
+                            <p class="para">(806) 722-0012<br>Click <a href="mailto:email@coatingspecialists.com">
+                                    here</a></p>
+                        </div>
+                        <div class="col-md-4 pb-5">
+                            <h3 class="text-center">CONNECT WITH US</h3><br>
+                            <a class="btn btn-outline-light btn-lg" href="mailto:email@coatingspecialists.com">SEND US
+                                AN EMAIL</a>
+                        </div>
+                    </div>
+                    <!--- End of Row -->
+                </div>
+                <!--- End of Container -->
+            </footer>
+        </div><!-- end of push -->
+
+        <!-- jquery -->
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <!-- bootstrap -->
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <!-- font awesome -->
+        <script src="./js/all.js"></script>
+        <!-- main js -->
+        <script src="./js/script.js"></script>
+    </div>
+    </div>
+</body>
+
+</html>

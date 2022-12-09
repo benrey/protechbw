@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Space+Grotesk:wght@30&family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- main.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- title -->
+    <title>Coating Specialists</title>
+    <!-- global site tag (gtag.js)
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZG37SV42XS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZG37SV42XS');
+    </script> - Google Analytics -->
+</head>
+
+<body id="faq">
+    <bg></bg>
+    <div id="mainSlideShow">
+        <!-- preloader -->
+        <!-- end preloader -->
+        <!-- Whole page wrapper -->
+        <!-- header section -->
+        <header class="header" id="header">
+            <con class="container-fluid">
+                <!-- nav element -->
+                <nav class="navbar fixed-top navbar-expand-md" id="navb">
+                    <a href="index.html" class="navbar-brand transparent">
+                        <img src="img/CSI_R.png" alt="logo" class="#" />
+                    </a>
+                    <a href="index.html" class="navbar-brand-text">
+                        Coating Specialists
+                    </a>
+                    <button class="navbar-toggler collapsed icon-bars" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#myNav">
+                        <span class="toggler-icon top-bar"></span>
+                        <span class="toggler-icon middle-bar"></span>
+                        <span class="toggler-icon bottom-bar"></span>
+                    </button>
+                    <!-- -->
+                    <div class="collapse navbar-collapse" id="myNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="work.html" class="nav-link">
+                                    WORK
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="services.html" class="nav-link">
+                                    SERVICES
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">
+                                    CONTACT
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="FAQ.html" class="nav-link">
+                                    FAQ
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- social icons -->
+                        <div class="nav-icons">
+                            <a href="https://www.facebook.com/coatingspecialists/" class="nav-icon">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/coating_specialists/" class="nav-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="nav-icon">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <!-- end nav element -->
+            </con>
+        </header>
+        <!-- end of header section -->
+        <div id="push" class="">
+            <!-- beginging of jumobtron -->
+            <div class="jumbotron">
+                <div class="container-xxl container-fluid">
+                    <h2 class="text-center pt-5 pb-3">FAQs</h2>
+                    <p class="para text-center pt5 pb-3">What is Powder Coating?<br>
+                        Powder coating is an electrostatic process of applying powder pigment and resin to a metal
+                        surface. The powder coated pieces are then placed in ovens to “cure”, resulting in a smooth and
+                        resilient coating that is bonded to the metal substrate.
+                        How is Powder Coating different than Wet Coating Systems?<br>
+                        Unlike wet coating applications, powder coating does not require a solvent to keep the binder
+                        and filler parts in a liquid suspension form. As such, there are no drying times needed. Due to
+                        the absence of these solvents, powder coating is environmentally friendlier than wet coatings
+                        systems.
+                        Is Powder Coating better than Wet Painting?<br>
+                        The powder coating process results in a more durable, more chip-resistant, and better-looking
+                        finish than its wet coating in most cases. Depending on application or certification
+                        requirements, wet paint could be the proper course of action. Coating Specialists can help you
+                        determine the proper coating for the application.
+                        The durability of powder coating is mainly attributed to its fusion-bonded properties. The
+                        resulting bond handles, bumps, abrasions, and impacts significantly better than most wet coating
+                        applications.
+                        The finish is also more resilient to UV degradation, corrosion, and chemical erosion in most
+                        cases. This weather ability allows powder coating to withstand extreme conditions much better
+                        than paint, thereby extending the substrate’s protected life.
+                        Powder is cured in an oven and has an even-finish across all surfaces with no signs of drips,
+                        runs, sags, or any other application traces. It is available in a wide variety of glosses,
+                        textures, and colors.
+                        What items can be Powder Coated?<br>
+                        Iron, wrought iron, aluminum, titanium, stainless steel, metal castings, magnesium and steel.
+                        Warping is a concern on very thin pieces. Seals, bushings, or accessory pieces made of plastic
+                        or rubber need to be removed prior to the powder coating process.
+                        How do you prepare parts for Powder Coating?<br>
+                        Abrasive blasting items to remove oils, dirt, and other coatings. Coating Specialists uses all
+                        virgin aluminum oxide 60grit and 100 grit in an enclosed reclaim booth. Certain circumstances,
+                        require a prebake to remove oils that might be imbedded into the metal and other times to
+                        chemically strip some previous coated parts. Coating Specialists will determine if this is
+                        needed prior to abrasive blasting.
+                        Not only does this abrasive blasting technique remove grease, rust, and dirt contaminate, it
+                        also creates a solid “anchor-profile” from which the powder adheres to when curing. On some
+                        industrial parts, an anchor profile of called out on the print. Coating Specialists has the
+                        ability to measure the profile prior to coating. This is part of the reason why powder coating
+                        has such a resilient and tough shell.
+                        What is the benefit of media blasting / abrasive blasting?<br>
+                        The removal of all surface contaminants (rust, paint, grease) is one of the most crucial
+                        elements to providing a coating that will protect the substrate and prevent corrosion. If the
+                        surface area is not free of all contaminants and does not have a proper anchor profile for
+                        coatings to adhere to, then the surface is only as strong as the material that you are coating
+                        over. This prep applies for powder coating, industrial coating, hydro graphics, and Cerakote.
+                        Can you powder coat pieces that have already been painted/powder coated?<br>
+                        In certain circumstances, the original coating does not need to be fully removed as the anchor
+                        profile is strong. Coating Specialists will determine if this is needed prior to abrasive
+                        blasting.
+                        What about nut and bolt threads, or areas that need to be kept free of coating?<br>
+                        To keep powder away from threaded components or low-tolerance areas, high-temperature masking
+                        tape and silicon plugs are used. Any project requirements or masking concerns will be addressed
+                        and signed off on prior to beginning the process.
+                        What colors and textures are available?<br>
+                        With stock colors to choose from, Coating Specialists keeps a large inventory made for reduced
+                        price points and shorter lead times. We also offer a wide variety of colors, glosses, textures,
+                        candies and metallic. Each sample can be seen in our showroom or an employee can help find a
+                        color from our suppliers. We can special order colors, but cost and lead time will vary.
+                        Does Houston Powder Coaters offer High Temperature Resistant Coatings?<br>
+                        Coating Specialists offers high temperature silicone powder coating to protect surfaces with
+                        prolonged exposure to temps up to 1200°. This coating is resistant to delamination and cracking
+                        when exposed to these high temperatures. Applications for this type coating include outdoor BBQ
+                        grills and furnaces, agricultural and construction equipment (ACE), and certain auto parts.
+                        We recommend using Cerakote C-Series for all exhaust and manifold systems. Of course it can be
+                        used for BBQ grills or any high temp application large or small. This ceramic coating can
+                        withstand temperatures up to 1800 degrees without color loss or delamination.
+
+                        What imperfections will Powder Coating cover up?<br>
+                        Powder coating can cover up minor scratches and small imperfections. However, as with most
+                        coatings, the end-result is only as good as the surface it is applied to. Weld splatter, grind
+                        marks, tack welds, and poor craftsmanship will still show through.
+                        Do you handle small jobs?<br>
+                        Big and small projects as well as large and small quantities. We work on fishing jigs all the
+                        way up to horse trailers.
+                        What are your turnaround times?<br>
+                        Typically, Coating Specialists can turn industrial items in 1-2 weeks depending upon arrival
+                        time, stock versus special order colors, and masking requirements. Faster turnarounds are
+                        available with expedite charge. Coating Specialists will be clear and upfront on turnaround
+                        times at the beginning of each job and inform the customer of any delays.
+                        Are COCs (Certificates of Compliance / Certificates of Conformance) available?<br>
+                        Yes, Coating Specialists will provide COCs assuring millage requirements, blasting requirements,
+                        holiday testing, and/or other noted specifications. These will be drawn up and agreed to before
+                        the start of any project.
+                        Hydrographics, water transfer printing, water transfer imaging, hydro dipping is a method of
+                        applying printed designs to three-dimensional surfaces.
+                        The hydrographic printing process is extensively used to decorate items that range from entire
+                        all-terrain vehicles and car dashboards, to small items like bike helmets, cups, cell phone
+                        cases, and motorcycle frames. Films can be applied to all types of substrates including plastic,
+                        fiberglass, wood, ceramics, and metal.
+                        In the process, the substrate piece to be printed first goes through the entire painting
+                        process: surface preparation, priming, painting, and clear coating. The process requires good
+                        preparation and is firstly coated with a primer. After the primer dries, base coat paint is
+                        applied to match with the pattern. So, for example, woodgrain prints often utilize a brown base
+                        coat and many camouflage patterns use specific base color. After the base color is applied, the
+                        item is ready for the water transfer printing process.
+
+                        After painting but before clear coating, the part is ready to be dipped. This process utilizes a
+                        water-soluble film that contains the printed designs. It is carefully placed on the water's
+                        surface in the dipping tank. The clear film is water soluble, and dissolves after applying an
+                        activator solution. Once dipping has begun, the surface tension of the water will allow the
+                        pattern to curve around any shape. Any remaining residue is then rinsed off thoroughly. The ink
+                        has already adhered and will not wash off. It is then allowed to dry before a protective clear
+                        coat is applied.
+                        Advantages
+                        Hydrographics advantages are the level of customization. You can choose different basecoats,
+                        prints and clear coats all to create something truly unique.
+
+                        Application
+                        Hydrographic patterns include carbon fiber, woodgrain, camouflage, geometrical patterns, and a
+                        wide variety of other prints are available for application.
+
+                        The Hydrographics process is used worldwide to decorate materials including plastic, wood,
+                        fiberglass, metal, and ceramics.Uses for Hydrographics are:
+
+
+
+                        Still have more questions?
+                        Please feel free to call Coating Specialists directly at 806-722-0012. We can answer any
+                        additional questions about coating.
+
+                        </h3>
+                    <div class="row justify-content-center text-center" id="features">
+                        <div class="col-10 col-md-4">
+                            <div class="feature">
+                                <a href="index.html" class="href">
+                                    <img src="img/gearLogo.png">
+                                </a>
+                                <h3>Home</h3>
+                                <p>Go back to homepage</p>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-4">
+                            <div class="feature">
+                                <a href="https://www.instagram.com/coatingspecialists/" class="href">
+                                    <img src="img/CSInstagram.jpg">
+                                </a>
+                                <h3>Instagram</h3>
+                                <p>Follow and give us a like on Instagram!</p>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-4">
+                            <div class="feature">
+                                <a href="https://www.facebook.com/coatingspecialists/" class="featurefbhref">
+                                    <img src="img/FB.png" alt="logo" class="#" />
+                                </a>
+                                <h3>Facebook</h3>
+                                <p>Follow and give us a link on Facebook!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- End Row -->
+                </div>
+                <!--- End Container -->
+            </div> <!-- end of jumbotron -->
+
+            <!-- start of footer -->
+
+            <footer>
+                <div class="container">
+                    <div class="row text-center py-5">
+                        <div class="col-md-4">
+                            <a href="about.html" class="footerCerakotehref">
+                                <img src="img/CerakoteLogo.png" alt="cerakoteLogo" class="#">
+                            </a>
+                            <p>Understanding Cerakote</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="text-center">CONTACT INFO</h3><strong>Contact Info</strong>
+                            <p class="para">(806) 722-0012<br>Click <a href="mailto:email@coatingspecialists.com">
+                                    here</a></p>
+                        </div>
+                        <div class="col-md-4 pb-5">
+                            <h3 class="text-center">CONNECT WITH US</h3><br>
+                            <a class="btn btn-outline-light btn-lg" href="mailto:email@coatingspecialists.com">SEND US
+                                AN EMAIL</a>
+                        </div>
+                    </div>
+                    <!--- End of Row -->
+                </div>
+                <!--- End of Container -->
+            </footer>
+        </div><!--end of push-->
+        <!-- jquery -->
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <!-- bootstrap -->
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <!-- font awesome -->
+        <script src="./js/all.js"></script>
+        <!-- main js -->
+        <script src="./js/script.js"></script>
+    </div>
+    </div>
+</body>
+
+</html>
