@@ -5,6 +5,7 @@
     --color-headings: #1b0760;
     --color-body: #918ca4;
 }
+
 /*typography*/
 
 html {
@@ -12,6 +13,7 @@ html {
 
     font-size: 62.5%;
 }
+
 body {
     font-family: Inter, Arial, Arial, Helvetica, sans-serif;
     color: var(--color-body);
@@ -19,20 +21,26 @@ body {
     line-height: 1.5;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     color: var(--color-headings);
     margin-bottom: 1rem;
 }
+
 h1 {
     /* 1x html element*/
     font-size: 7rem;
 }
+
 h2 {
     font-size: 4rem;
 }
+
 h3 {
-    font-size:3rem;
+    font-size: 3rem;
 }
+
 p {
     margin-top: 0;
 }
@@ -41,12 +49,15 @@ p {
     body {
         font-size: 1.8rem;
     }
+
     h1 {
         font-size: 8rem;
     }
+
     h2 {
         font-size: 4rem;
     }
+
     h4 {
         font-size: 2.4rem;
     }
@@ -56,6 +67,7 @@ p {
 a {
     text-decoration: none;
 }
+
 .link-arrow {
     color: var(--color-accent);
     font-size: 2rem;
@@ -63,6 +75,18 @@ a {
     text-transform: uppercase;
 }
 
-link-arrow::after {
+.link-arrow::after {
     content: '-->';
+    margin-left: 5px;
+    transition: margin 0.15s;
+}
+
+.link-arrow:hover::after {
+    margin-left: 10px;
+}
+
+@media screen and (min-wdith: 1024px) {
+    .link-arrow {
+        font-size: 1.5rem;
+    }
 }
