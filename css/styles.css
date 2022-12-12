@@ -122,3 +122,12 @@ a {
         font-size: 1.2rem;
     }
 }
+
+/* Lists */
+.list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-headings)
+}
+
+.list--inline li {}
