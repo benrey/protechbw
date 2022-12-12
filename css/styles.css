@@ -1,9 +1,13 @@
 :root {
-    --color-primary: #2584ff;
-    --color-secondary: #009dff;
-    --color-accent: #ff3400;
-    --color-headings: #1b0760;
+    --color-primary: #ff2525;
+    --color-primary-hover: #ff4646;
+    --color-secondary: #ff1e00cc;
+    --color-secondary-hover: #fc452dcc;
+    --color-accent: #003cff;
+    --color-accent-hover: #194fff;
+    --color-headings: #5a0606;
     --color-body: #918ca4;
+    --color-pearl: #F8F6F0;
 }
 
 /*typography*/
@@ -102,12 +106,12 @@ a {
 
 .badge--primary {
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-pearl);
 }
 
 .badge--secondary {
     background: var(--color-secondary);
-    color: #fff;
+    color: var(--color-pearl);
 }
 
 .badge--small {
@@ -127,7 +131,103 @@ a {
 .list {
     list-style: none;
     padding-left: 0;
-    color: var(--color-headings)
+    color: var(--color-headings);
 }
 
-.list--inline li {}
+.list--inline .list__item{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.list--tick {
+    list-style-image: url(../images/tick.svg);
+    padding-left: 3rem;
+}
+
+.list--tick .list__item {
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item {
+        padding-left: 0;
+    }
+}
+
+/* Icons */
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
+.icon--secondary {
+    fill: var(--color-secondary);
+}
+
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius:100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Buttons */
+
+.btn {
+    border-radius: 4rem;
+    border:0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    outline: 0;
+    padding: 2rem 4vw;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+
+.btn .icon {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.btn--primary {
+    background: var(--color-primary);
+    color: var(--color-pearl);
+}
+.btn--primary:hover {
+    background: var(--color-primary-hover);
+    transition: ease-in-out .4s;
+}
+
+.btn--secondary {
+    background: var(--color-secondary);
+    color: var(--color-pearl);
+}
+
+.btn--secondary:hover {
+    background: var(--color-secondary-hover);
+    transition: ease-in-out .4s;
+}
+
+.btn--accent {
+    background: var(--color-accent);
+    color: var(--color-pearl);
+}
+
+.btn--accent:hover {
+    background: var(--color-accent-hover);
+    transition: ease-in-out .4s;
+}
