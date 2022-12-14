@@ -1,20 +1,24 @@
 :root {
     --color-primary: #ff2525;
-    --color-primary-hover: #ff4646;
-    --color-secondary: #ff1e00cc;
-    --color-secondary-hover: #fc452dcc;
-    --color-accent: #003cff;
-    --color-accent-hover: #194fff;
+    --color-primary-hover: #e72222;
+    --color-secondary: #eb2222;
+    --color-secondary-hover: #c91d1d;
+    --color-accent: #194fff;
+    --color-accent-hover: #0435d6;
     --color-headings: #5a0606;
     --color-body: #918ca4;
     --color-pearl: #F8F6F0;
+    --colors-border: #ccc;
+    --border-radius: 30px;
 }
 
+*, *::after, *::before {
+    box-sizing: border-box;
+}
 /*typography*/
 
 html {
     /* 62.5% = 10px*/
-
     font-size: 62.5%;
 }
 
@@ -24,7 +28,9 @@ body {
     font-size: 2.4rem;
     line-height: 1.5;
 }
-
+a {
+    color: var(--color-primary);
+}
 h1,
 h2,
 h3 {
@@ -182,7 +188,7 @@ a {
 /* Buttons */
 
 .btn {
-    border-radius: 4rem;
+    border-radius: 40px;
     border:0;
     cursor: pointer;
     font-size: 1.8rem;
@@ -230,4 +236,70 @@ a {
 .btn--accent:hover {
     background: var(--color-accent-hover);
     transition: ease-in-out .4s;
+}
+
+.btn--block {
+    width: 100%;
+    display: inline-block; 
+}
+
+.btn--outline {
+    background: var(--color-pearl);
+    color: var(--color-headings);
+    border: 2px solid var(--color-headings);
+}
+
+.btn--outline:hover {
+    background: var(--color-headings);
+    color: var(--color-pearl);
+}
+
+@media screen and (min-width: 1024px;) {
+    .btn {
+        font-size: 1.5rem;
+    }
+}
+
+/* Inputs */
+
+.input {
+    border-radius: var(--border-radius);
+    border: 1px solid #ccc;
+    color: var(--color-headings);
+    font-size: 2rem;
+    outline: 0;
+    padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+    color: #cdcbd7;
+}
+
+.input-group {
+    border: 1px solid var(--colors-border);
+    border-radius: var(--border-radius);
+    display: flex;
+
+}
+
+.input-group .input{
+    border: 0;
+    flex-grow: 1;
+    padding: 1.5rem 1rem;
+}
+
+.input-group .btn {
+    margin: 4px;
+}
+
+.input-group .icon-container {
+    width: 64px;
+    height: 64px;
+    margin: 1px;
+}
+
+@media screen and (min-width: 1024px) {
+    .input {
+        font-size: 1.5rem;
+    }
 }
