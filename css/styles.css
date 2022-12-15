@@ -403,4 +403,5 @@ a {
 
   .media__image {
     margin-top: 1rem;
+    filter: invert(15%) sepia(88%) saturate(3837%) hue-rotate(354deg) brightness(103%) contrast(93%);
   }
