@@ -38,21 +38,50 @@
         <li class="nav__item"><a href="#">Contact</a></li>
       </ul>
     </nav>
-</header>
-<section class="block block--dark block--skewed-left hero">
-  <div class="container grid grid--cols-2">
-    <header class="block__header hero__content">
-    <div class="hero__content">
-      <h1 class="block__heading">Midland's Premium Body Shop</h1>
-      <p class="hero__tagline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus culpa expedita inventore!</p>
-      <a href="" class="btn btn--accent btn--stretched">Call for Free Quotes!</a>
-    </div>
   </header>
-    <img class="hero__image" src="images/banner.jpg" alt="Guy">
-  </div>
-</section>
+  <section class="block block--dark block--skewed-left hero">
+    <div class="container grid grid--cols-2">
+      <header class="block__header hero__content">
+        <div class="hero__content">
+          <h1 class="block__heading">Midland's Premium Body Shop</h1>
+          <p class="hero__tagline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus culpa expedita
+            inventore!</p>
+          <a href="" class="btn btn--accent btn--stretched">Call for Free Quotes!</a>
+        </div>
+      </header>
+      <picture>
+        <source type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x" />
+        <source type="image/jpg" srcset="images/banner.png 1x, images/banner@2x.png 2x" />
+        <img class="hero__image" src="images/banner.jpg" alt="Guy" />
+      </picture>
+    </div>
+  </section>
+  <section class="block container block-domain">
+    <header class="block__header">
+      <h2>Search Services</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, laudantium.</p>
+    </header>
+    <div class="input-group">
+      <input type="text" class="input" placeholder="Enter service type here..." />
+      <button class="btn btn--accent">
+        <svg class="icon icon--white">
+          <use xlink:href="images/sprite.svg#search"></use>
+        </svg>Search
+      </button>
+    </div>
+    <ul class="list block-domain__prices">
+      <li>Free Estimates</li>
+      <li>Chip repair</li>
+      <li>Hail damaage</li>
+      <li>Body Work</li>
+      <li>Paint Job</li>
+      <li>Paintless Dent Repair</li>
+    </ul>
 
-<script src="js/main.js"></script>
-<script src="js/actions.js"></script>
+  </section>
+
+  <script src="js/main.js"></script>
+  <script src="js/actions.js"></script>
 </body>
+
 </html>
