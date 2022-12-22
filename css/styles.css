@@ -205,6 +205,7 @@ a {
 .icon-container--accent {
      background: var(--color-accent);
 }
+
 /* Buttons */
 
 .btn {
@@ -829,22 +830,20 @@ a {
 } 
 
 /* Domain Block */
-.block-domain .input-group {
-    box-shadow: 0 0 30px 20px #e6ebee;
-    border: 0;
-    margin: 4rem auto;
-    max-width: 670px;
-}
 
-.block-domain__prices {
+.block-domain__services {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2, 6rem);
-    font-size: 2rem; 
+    font-size: 3rem; 
     font-weight: 600;
     justify-items: center;
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 4rem auto;
+}
+
+.block-domain__services span {
+    font-size: 3rem;
 }
 
 @media screen and (min-width: 768px) {
