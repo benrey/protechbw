@@ -882,3 +882,10 @@ a {
     max-width: 500px;
     margin: 0;
 }
+
+/* Features */
+
+.feature__heading {
+    margin: 1rem 0;
+}
+
